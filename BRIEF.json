@@ -1,0 +1,7 @@
+{
+  "slug": "json-toolbox-mcp",
+  "name": "JSON Toolbox",
+  "niche": "developer-tools",
+  "description": "Pure-JS MCP server that gives AI assistants tools to validate, query (JSONPath), diff, format, and minify JSON. No external APIs needed.",
+  "createdAt": "2026-04-28T15:41:52.846Z"
+}

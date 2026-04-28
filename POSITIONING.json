@@ -1,0 +1,10 @@
+{
+  "persona": "Backend and full-stack developers who use AI coding assistants and frequently wrangle large or unfamiliar JSON payloads (API responses, configs, logs).",
+  "valueProp": "Give your AI assistant offline, dependency-free tools to validate, query, diff, format, and minify JSON without leaking data to external services.",
+  "usp": "Pure-JS, zero external APIs or network calls — unlike most JSON MCP servers that wrap online validators or schema services, this runs fully local and bundles JSONPath, diff, and schema validation in one lightweight package.",
+  "topUseCases": [
+    "Have the assistant JSONPath-query a huge API response to extract just the fields needed for debugging.",
+    "Diff two JSON config files (staging vs prod) and let the AI explain the meaningful changes.",
+    "Validate untrusted JSON payloads against a schema and auto-format or minify them inline during code review."
+  ]
+}

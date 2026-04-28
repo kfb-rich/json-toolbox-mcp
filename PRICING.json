@@ -1,0 +1,18 @@
+{
+  "model": "free-oss",
+  "tiers": [
+    {
+      "name": "FREE",
+      "price": "$0",
+      "limits": "unlimited (self-hosted)",
+      "features": [
+        "JSON validate",
+        "JSONPath query",
+        "diff",
+        "format",
+        "minify"
+      ]
+    }
+  ],
+  "rationale": "Pure local JSON utilities with no external APIs or hosted infra costs—standard OSS giveaway."
+}

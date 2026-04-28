@@ -1,0 +1,10 @@
+name: json-toolbox-mcp
+description: |
+  Pure-JS MCP server that gives AI assistants tools to validate, query (JSONPath), diff, format, and minify JSON. No external APIs needed.
+startCommand:
+  type: stdio
+  configSchema:
+    type: object
+    properties: {}
+  commandFunction: |-
+    (config) => ({ command: 'node', args: ['server.js'] })

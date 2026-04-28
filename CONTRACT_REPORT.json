@@ -1,0 +1,15 @@
+{
+  "slug": "json-toolbox-mcp",
+  "discoveredTools": [
+    "ping",
+    "echo"
+  ],
+  "expectedTools": [
+    "ping",
+    "echo"
+  ],
+  "failures": [],
+  "passed": true,
+  "runAt": "2026-04-28T15:43:28.234Z",
+  "bootError": null
+}

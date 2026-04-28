@@ -1,0 +1,28 @@
+{
+  "tools": [
+    {
+      "name": "ping",
+      "title": "Ping",
+      "description": "Health check.",
+      "inputSchema": {},
+      "implementation": "Return ok+server+ts.",
+      "rateLimitClass": "cheap"
+    },
+    {
+      "name": "echo",
+      "title": "Echo",
+      "description": "Echoes input message.",
+      "inputSchema": {
+        "message": {
+          "type": "string",
+          "description": "Text to echo"
+        }
+      },
+      "implementation": "Return the message verbatim.",
+      "rateLimitClass": "cheap"
+    }
+  ],
+  "dependencies": {},
+  "envVars": [],
+  "edgeCases": []
+}
