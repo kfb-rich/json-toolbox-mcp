@@ -1,4 +1,4 @@
-# Publish checklist for JSON Toolbox
+# Publish checklist for JSON Toolbox MCP
 
 ## Smithery (primary)
 - [ ] Push to GitHub (public repo)

@@ -4,15 +4,14 @@
     {
       "name": "FREE",
       "price": "$0",
-      "limits": "unlimited (self-hosted)",
+      "limits": "Unlimited (self-hosted)",
       "features": [
-        "JSON validate",
-        "JSONPath query",
-        "diff",
-        "format",
-        "minify"
+        "ping",
+        "echo",
+        "Full source code",
+        "Self-hostable"
       ]
     }
   ],
-  "rationale": "Pure local JSON utilities with no external APIs or hosted infra costs—standard OSS giveaway."
+  "rationale": "Trivial JSON utility tools (ping/echo) provide no premium value or hosted infrastructure cost justifying paid tiers."
 }

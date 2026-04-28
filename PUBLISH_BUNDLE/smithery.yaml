@@ -1,6 +1,6 @@
 name: json-toolbox-mcp
 description: |
-  Pure-JS MCP server that gives AI assistants tools to validate, query (JSONPath), diff, format, and minify JSON. No external APIs needed.
+  Premium MCP server for JSON manipulation
 startCommand:
   type: stdio
   configSchema:

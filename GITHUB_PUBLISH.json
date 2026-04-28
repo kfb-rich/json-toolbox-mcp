@@ -1,0 +1,8 @@
+{
+  "owner": "kfb-rich",
+  "repo": "json-toolbox-mcp",
+  "url": "https://github.com/kfb-rich/json-toolbox-mcp",
+  "cloneUrl": "https://github.com/kfb-rich/json-toolbox-mcp.git",
+  "installCmd": "npx -y github:kfb-rich/json-toolbox-mcp",
+  "publishedAt": "2026-04-28T16:40:44.983Z"
+}

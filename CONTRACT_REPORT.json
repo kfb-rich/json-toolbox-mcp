@@ -1,6 +1,9 @@
 {
   "slug": "json-toolbox-mcp",
   "discoveredTools": [
+    "about",
+    "health",
+    "examples",
     "ping",
     "echo"
   ],
@@ -9,7 +12,17 @@
     "echo"
   ],
   "failures": [],
+  "warnings": [
+    {
+      "tool": "examples",
+      "kind": "tool_error_on_synthesized_args",
+      "got": "[not_found] No examples registered for tool 'test'\nHint: Call examples with no args to see all registered examples.",
+      "args": {
+        "tool": "test"
+      }
+    }
+  ],
   "passed": true,
-  "runAt": "2026-04-28T15:43:28.234Z",
+  "runAt": "2026-04-28T16:48:56.100Z",
   "bootError": null
 }

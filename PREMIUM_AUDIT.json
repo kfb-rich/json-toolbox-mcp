@@ -1,0 +1,84 @@
+{
+  "scoreBefore": 40,
+  "scoreAfter": 100,
+  "report": {
+    "ok": true,
+    "score": 100,
+    "criticalFails": 0,
+    "passedCount": 10,
+    "total": 10,
+    "checks": [
+      {
+        "id": "uses-premium-helpers",
+        "severity": "critical",
+        "description": "server.js requires lib/premium.js helpers",
+        "passed": true,
+        "hint": null
+      },
+      {
+        "id": "has-introspection",
+        "severity": "critical",
+        "description": "registers introspection tools (about/health/examples)",
+        "passed": true,
+        "hint": null
+      },
+      {
+        "id": "no-raw-content-arrays",
+        "severity": "warn",
+        "description": "tool handlers should use ok()/err() helpers, not hand-built content arrays",
+        "passed": true,
+        "hint": null
+      },
+      {
+        "id": "no-stdout-writes",
+        "severity": "critical",
+        "description": "no console.log / process.stdout.write — stdout is reserved for JSON-RPC",
+        "passed": true,
+        "hint": null
+      },
+      {
+        "id": "safe-wrapped-handlers",
+        "severity": "warn",
+        "description": "domain tool handlers wrapped with safe()",
+        "passed": true,
+        "hint": null
+      },
+      {
+        "id": "rich-descriptions",
+        "severity": "warn",
+        "description": "most tool descriptions include \"When to use\" heuristic",
+        "passed": true,
+        "hint": null
+      },
+      {
+        "id": "examples-populated",
+        "severity": "warn",
+        "description": "__examples map has entries for at least half of domain tools",
+        "passed": true,
+        "hint": null
+      },
+      {
+        "id": "package-bin-set",
+        "severity": "critical",
+        "description": "package.json has bin entry (required for `npx -y github:owner/repo` install)",
+        "passed": true,
+        "hint": null
+      },
+      {
+        "id": "package-has-description",
+        "severity": "warn",
+        "description": "package.json has non-empty description",
+        "passed": true,
+        "hint": null
+      },
+      {
+        "id": "shebang",
+        "severity": "warn",
+        "description": "server.js starts with #!/usr/bin/env node (lets `npx github:...` invoke it)",
+        "passed": true,
+        "hint": null
+      }
+    ]
+  },
+  "auditedAt": "2026-04-28T16:48:40.729Z"
+}

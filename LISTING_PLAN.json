@@ -1,18 +1,18 @@
 {
   "meta": {
     "slug": "json-toolbox-mcp",
-    "name": "JSON Toolbox",
+    "name": "JSON Toolbox MCP",
     "niche": "developer-tools",
-    "description": "Pure-JS MCP server that gives AI assistants tools to validate, query (JSONPath), diff, format, and minify JSON. No external APIs needed."
+    "description": "Premium MCP server for JSON manipulation"
   },
   "positioning": {
-    "persona": "Backend and full-stack developers who use AI coding assistants and frequently wrangle large or unfamiliar JSON payloads (API responses, configs, logs).",
-    "valueProp": "Give your AI assistant offline, dependency-free tools to validate, query, diff, format, and minify JSON without leaking data to external services.",
-    "usp": "Pure-JS, zero external APIs or network calls — unlike most JSON MCP servers that wrap online validators or schema services, this runs fully local and bundles JSONPath, diff, and schema validation in one lightweight package.",
+    "persona": "Backend and integration developers using AI coding assistants who frequently wrangle JSON payloads from APIs, configs, and logs",
+    "valueProp": "A dedicated MCP server that gives your AI assistant reliable, deterministic JSON manipulation primitives instead of error-prone freehand parsing.",
+    "usp": "Purpose-built JSON toolbox exposed via MCP — unlike generic shell or filesystem servers, every tool is typed, schema-aware, and optimized for round-tripping large JSON without token bloat.",
     "topUseCases": [
-      "Have the assistant JSONPath-query a huge API response to extract just the fields needed for debugging.",
-      "Diff two JSON config files (staging vs prod) and let the AI explain the meaningful changes.",
-      "Validate untrusted JSON payloads against a schema and auto-format or minify them inline during code review."
+      "Validating and pretty-printing JSON responses inside an AI chat workflow",
+      "Diffing, merging, and patching configuration files across environments",
+      "Querying and transforming large JSON payloads without loading them into the model context"
     ]
   },
   "pricing": {
@@ -21,22 +21,21 @@
       {
         "name": "FREE",
         "price": "$0",
-        "limits": "unlimited (self-hosted)",
+        "limits": "Unlimited (self-hosted)",
         "features": [
-          "JSON validate",
-          "JSONPath query",
-          "diff",
-          "format",
-          "minify"
+          "ping",
+          "echo",
+          "Full source code",
+          "Self-hostable"
         ]
       }
     ],
-    "rationale": "Pure local JSON utilities with no external APIs or hosted infra costs—standard OSS giveaway."
+    "rationale": "Trivial JSON utility tools (ping/echo) provide no premium value or hosted infrastructure cost justifying paid tiers."
   },
   "copy": {
-    "tagline": "Pure-JS MCP server that gives AI assistants tools to validat",
-    "shortDesc": "Pure-JS MCP server that gives AI assistants tools to validate, query (JSONPath), diff, format, and minify JSON. No external APIs needed.",
-    "longDesc": "Pure-JS MCP server that gives AI assistants tools to validate, query (JSONPath), diff, format, and minify JSON. No external APIs needed.",
+    "tagline": "Premium MCP server for JSON manipulation",
+    "shortDesc": "Premium MCP server for JSON manipulation",
+    "longDesc": "Premium MCP server for JSON manipulation",
     "installSnippet": "{\n  \"mcpServers\": {\n    \"json-toolbox-mcp\": { \"command\": \"node\", \"args\": [\"/abs/path/server.js\"] }\n  }\n}",
     "exampleConversation": "",
     "faq": []
@@ -47,25 +46,21 @@
       "mcp",
       "model-context-protocol",
       "json",
-      "jsonpath",
-      "json-validation",
-      "json-diff",
-      "json-formatter",
+      "json-parser",
+      "json-tools",
       "developer-tools",
-      "ai-tools",
-      "llm-tools"
+      "mcp-server",
+      "json-manipulation"
     ],
     "keywords": [
-      "json",
-      "jsonpath",
-      "json-validator",
-      "json-diff",
-      "json-formatter",
-      "json-minify",
-      "mcp-server",
-      "developer-tools",
-      "ai-assistant",
-      "pure-js"
+      "json mcp",
+      "json toolbox",
+      "json manipulation",
+      "mcp server",
+      "developer tools",
+      "json parser",
+      "json formatter",
+      "model context protocol"
     ]
   },
   "tools": [
@@ -90,5 +85,6 @@
       "implementation": "Return the message verbatim.",
       "rateLimitClass": "cheap"
     }
-  ]
+  ],
+  "premiumScore": 100
 }
